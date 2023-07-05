@@ -39,12 +39,16 @@ An example of the format for the two files are given below:
 
 ### vms.config 
 os:fedora,cores:32,ram:64,ssd:64
+
 os:ubuntu,cores:4,ram:24,ssd:128,bandwidth:1
+
 os:windows,cores:6,ram:32,ssd:256,bandwidth:2,gpu:6
 
 ### programs.config
 cores:32,ram:4,ssd:4,time:6
+
 cores:4,ram:6,ssd:2,bandwidth:1,time:20
+
 cores:1,ram:4,ssd:1,bandwidth:1,gpu:4,time:12
 
 
